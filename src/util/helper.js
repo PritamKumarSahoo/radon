@@ -1,5 +1,15 @@
-const printData="Print the current data"
-printMonth=function (){
-     getMonth()
-    return month =(0 to 11)
+const printDate=function() {
+    let currentDate= new Date()
+    console.log (currentDate)
 }
+const printMonth =function(){
+    let currentDate= new Date()
+    let currentMonth= currentDate.getMonth() +1
+    console.log ("current month is" +currentMonth )
+}
+
+module.exports.printDate = printDate
+module.exports.printMonth = printMonth
+
+
+
