@@ -11,7 +11,7 @@ router.get('/test-me', function (req, res) {
     mylogger.welcome()
     format.trim()
     format.lowerCase()
-    format.upperrCase()
+    format.upperCase()
     
     res.send('My first ever api!')
 });
